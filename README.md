@@ -131,12 +131,12 @@ Unreal Engine 4.27 기반 멀티플레이어 슈팅 프로토타입입니다.
 
 ---
 
-## Other Experience
+## Additional Experience
 
-- Unreal Engine 기반 Stealth Action RPG 프로토타입 제작
-- 서울게임아카데미 SGA 프로그래밍 / Unreal Engine 교육 과정 수료
-- SGA 우수학생 플레이X4 포트폴리오 영상출품
 - SSAFY 15기 Java 풀스택 과정 진행 중
+- 서울게임아카데미 SGA 프로그래밍 및 Unreal Engine 과정 수료
+- SGA 우수학생 선정 및 PlayX4 포트폴리오 출품
+- Unreal Engine 기반 Stealth Action RPG 프로토타입 제작
 
 
 ---
