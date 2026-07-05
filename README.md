@@ -1,14 +1,17 @@
-# Kang Hyun Soon
+Kang Hyun Soon
 
-> Backend developer with experience in Spring Boot services, external APIs, and real-time/game systems.
+Backend developer focused on connecting service data, external APIs, and AI-powered workflows.
 
-Spring Boot 기반 백엔드 개발과 외부 API 연동 서비스 구현에 관심이 있습니다.  
-SSAFY 과정에서 Java, Spring Boot, MyBatis, MySQL을 중심으로 학습하고 있으며,  
-공공데이터와 AI API를 활용한 위치 기반 서비스 프로젝트를 진행하고 있습니다.
+Spring Boot 기반 백엔드 개발과 외부 API 연동, 데이터 흐름 설계에 관심이 있습니다.
+SSAFY 과정에서 Java, Spring Boot, MyBatis, MySQL을 중심으로 학습하고 있으며,
+공공데이터, 위치 정보, AI API를 활용해 현실의 정보를 서비스 흐름 안으로 연결하는 프로젝트를 진행하고 있습니다.
 
-이전에는 Unity와 Unreal Engine 기반 프로젝트를 통해  
-게임 클라이언트 구조, 실시간 시스템, 네트워크 동기화, 서버 권위 구조를 경험했으며,  
-현재는 이러한 경험을 백엔드 API 설계와 데이터 흐름 구현 역량으로 확장하고 있습니다.
+제가 지향하는 개발 방향은 AI 모델 자체를 학습하거나 튜닝하는 개발자라기보다,
+현실의 데이터와 사용자의 행동, 외부 서비스, AI 기능을 하나의 안정적인 파이프라인으로 연결하는 개발자입니다.
+
+이전에는 Unity와 Unreal Engine 기반 프로젝트를 통해
+게임 클라이언트 구조, 실시간 시스템, 네트워크 동기화, 서버 권위 구조를 경험했습니다.
+현재는 이러한 경험을 바탕으로 백엔드 API 설계, 인증 흐름, 데이터 처리, 외부 API 연동, AI 기반 기능 연결 역량으로 확장하고 있습니다.
 
 ---
 
