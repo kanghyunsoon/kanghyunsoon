@@ -2,6 +2,11 @@
 
 > Backend developer with experience in Spring Boot services, external APIs, and real-time/game systems.
 
+🏆 **SSAFY 15기 1학기 관통 프로젝트 우수상**  
+AI 오케스트레이션 기반 지역 탐험 방탈출 플랫폼 `Operation KOREA`
+<img src="imgs/ssafy_pierce.png" alt="상장" width="40%">
+
+
 Spring Boot 기반 백엔드 개발과 외부 API 연동, 데이터 흐름 설계에 관심이 있습니다.
 SSAFY 과정에서 Java, Spring Boot, MyBatis, MySQL을 중심으로 학습하고 있으며,
 공공데이터, 위치 정보, AI API를 활용해 현실의 정보를 서비스 흐름 안으로 연결하는 프로젝트를 진행하고 있습니다.
