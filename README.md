@@ -27,11 +27,9 @@ Unity와 Unreal Engine으로 게임을 만들고 있습니다. 방치형 RPG를 
 
 | 프로젝트 | 제가 맡은 일 |
 | --- | --- |
-| **수어의 달인**<br>TensorFlow · TFLite · React / 6인 팀 | AI의 도움으로 지문자 모델의 학습 스크립트를 작성하고 인식 결과를 비교하며 튜닝했습니다. 게임 선택 이후 프론트엔드와 예측을 게임 입력으로 확정하는 흐름을 맡았습니다. |
+| **[수어의 달인](https://github.com/kanghyunsoon/sign-language-game)**<br>TensorFlow · TFLite · React / 6인 팀 | AI의 도움으로 지문자 모델의 학습 스크립트를 작성하고 인식 결과를 비교하며 튜닝했습니다. 게임 선택 이후 프론트엔드와 예측을 게임 입력으로 확정하는 흐름을 맡았습니다. |
 | **[Operation KOREA](https://github.com/kanghyunsoon/operation-seoul)**<br>Spring Boot · Gemini / 2인 팀 | 장소 정보를 모아 추리 에피소드를 생성·검사·저장하는 백엔드를 맡았습니다. 인증·에피소드·추리 API를 구현했고, DB는 초기 스키마와 연결까지 담당했습니다. |
 | **[Paws Diary](https://github.com/kanghyunsoon/Paws-on-Keyboard)**<br>Ennoia · AI 에이전트 | 사진 분석·관광지 추천·일기·이미지 생성의 전달 흐름을 구성했습니다. Ennoia에서 직접 호출하기 어려웠던 Hugging Face 모델은 [FastAPI 프록시](https://github.com/kanghyunsoon/HF_ProxyAPI)로 연결했습니다. |
-
-수어의 달인 저장소는 현재 비공개입니다.
 
 ## 교육·수상
 
