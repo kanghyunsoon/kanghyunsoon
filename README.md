@@ -1,158 +1,46 @@
-# Kang Hyun Soon
+# 강형순 · Kang Hyun Soon
 
-> Backend developer with experience in Spring Boot services, external APIs, and real-time/game systems.
+Unity와 Unreal Engine으로 게임을 만들고 있습니다. 방치형 RPG를 혼자 개발해 Google Play에 출시하고 업데이트했습니다. SSAFY에서는 팀 프로젝트로 웹과 AI를 게임에 연결하는 작업을 이어가고 있습니다.
 
-🏆 **SSAFY 15기 1학기 관통 프로젝트 우수상**  
-AI 오케스트레이션 기반 지역 탐험 방탈출 플랫폼 `Operation KOREA`
-<img src="imgs/ssafy_pierce.png" alt="상장" width="40%">
+![Unity](https://img.shields.io/badge/Unity-222C37?style=flat-square&logo=unity&logoColor=white)
+![Unreal Engine](https://img.shields.io/badge/Unreal_Engine-0E1128?style=flat-square&logo=unrealengine&logoColor=white)
+![C Sharp](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 
+## 게임 프로젝트
 
-Spring Boot 기반 백엔드 개발과 외부 API 연동, 데이터 흐름 설계에 관심이 있습니다.
-SSAFY 과정에서 Java, Spring Boot, MyBatis, MySQL을 중심으로 학습하고 있으며,
-공공데이터, 위치 정보, AI API를 활용해 현실의 정보를 서비스 흐름 안으로 연결하는 프로젝트를 진행하고 있습니다.
+| 프로젝트 | 제가 맡은 일 |
+| --- | --- |
+| **[사제의 길: 낮과 밤](https://github.com/kanghyunsoon/PathOfPriestPortfolio)**<br>Unity · C# / 1인 개발 · Google Play 출시 | 전투·성장 기능과 Firebase 저장, 광고·결제를 구현했습니다. 출시 후 Android SDK 의존성과 회원 탈퇴 기능을 수정했습니다. |
+| **[SSAFESTA](https://github.com/kanghyunsoon/SSAFESTA-Portfolio)**<br>Unity WebGL · Netcode / 6인 팀 | Unity 클라이언트와 전용 서버를 맡았습니다. AI 에이전트와 구현하고 웹·서버 통합 과정의 접속 실패, 렌더링과 메모리 문제를 확인해 수정했습니다. |
+| **[멀티플레이 TPS](https://github.com/kanghyunsoon/NetworkShooterPortfolio)**<br>Unreal Engine · C++ | 서버가 캐릭터의 콜리전을 발사 시점으로 되돌려 명중을 판정하는 리와인드 흐름을 구현했습니다. 공개 코드는 이 흐름을 중심으로 정리했습니다. |
+| **[잠입 액션 RPG](https://github.com/kanghyunsoon/StealthActionRPGPortfolio)**<br>Unreal Engine · C++ / 첫 게임 프로젝트 | 커버 이동, 전투, 발 위치 보정과 AI 상태 전환을 구현했습니다. 벽 끝에서 커버 위치가 틀어지는 문제를 탐지 지점을 나눠 수정했습니다. |
 
-제가 지향하는 개발 방향은 AI 모델 자체를 학습하거나 튜닝하는 개발자라기보다,
-현실의 데이터와 사용자의 행동, 외부 서비스, AI 기능을 하나의 안정적인 파이프라인으로 연결하는 개발자입니다.
+## AI를 게임·서비스에 연결한 프로젝트
 
-이전에는 Unity와 Unreal Engine 기반 프로젝트를 통해
-게임 클라이언트 구조, 실시간 시스템, 네트워크 동기화, 서버 권위 구조를 경험했습니다.
-현재는 이러한 경험을 바탕으로 백엔드 API 설계, 인증 흐름, 데이터 처리, 외부 API 연동, AI 기반 기능 연결 역량으로 확장하고 있습니다.
-
----
-
-## Tech Stack
-
-### Backend
-![Java](https://img.shields.io/badge/Java-17-007396?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
-![MyBatis](https://img.shields.io/badge/MyBatis-000000?style=flat-square)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=111827)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-### API / AI Integration
-![TourAPI](https://img.shields.io/badge/TourAPI-External_API-blue?style=flat-square)
-![Kakao Maps](https://img.shields.io/badge/Kakao_Maps-FFCD00?style=flat-square&logo=kakao&logoColor=black)
-![Tmap](https://img.shields.io/badge/Tmap-API-blue?style=flat-square)
-![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=google&logoColor=white)
-![Google Cloud Vision](https://img.shields.io/badge/Google_Cloud_Vision-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+| 프로젝트 | 제가 맡은 일 |
+| --- | --- |
+| **수어의 달인**<br>TensorFlow · TFLite · React / 6인 팀 | AI의 도움으로 지문자 모델의 학습 스크립트를 작성하고 인식 결과를 비교하며 튜닝했습니다. 게임 선택 이후 프론트엔드와 예측을 게임 입력으로 확정하는 흐름을 맡았습니다. |
+| **[Operation KOREA](https://github.com/kanghyunsoon/operation-seoul)**<br>Spring Boot · Gemini / 2인 팀 | 장소 정보를 모아 추리 에피소드를 생성·검사·저장하는 백엔드를 맡았습니다. 인증·에피소드·추리 API를 구현했고, DB는 초기 스키마와 연결까지 담당했습니다. |
+| **[Paws Diary](https://github.com/kanghyunsoon/Paws-on-Keyboard)**<br>Ennoia · AI 에이전트 | 사진 분석·관광지 추천·일기·이미지 생성의 전달 흐름을 구성했습니다. Ennoia에서 직접 호출하기 어려웠던 Hugging Face 모델은 [FastAPI 프록시](https://github.com/kanghyunsoon/HF_ProxyAPI)로 연결했습니다. |
 
-### Game / Real-time Systems
-![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
-![Unreal Engine](https://img.shields.io/badge/Unreal_Engine_4.27-0E1128?style=flat-square&logo=unrealengine&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+수어의 달인 저장소는 현재 비공개입니다.
 
-### Frontend
-![Vue.js](https://img.shields.io/badge/Vue_3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+## 교육·수상
 
----
+- SSAFY 15기 Java 풀스택 과정
+- SSAFY 15기 1학기 관통 프로젝트 우수상 · Operation KOREA 팀 수상
 
-## Main Projects
+<details>
+<summary>수상 내역 보기</summary>
 
-### Operation KOREA
+<img src="imgs/ssafy_pierce.png" alt="Operation KOREA 팀의 SSAFY 1학기 프로젝트 우수상 상장" width="440" />
 
-TourAPI 공공데이터와 AI를 결합해 관광지를 위치 기반 야외 방탈출 미션으로 전환하는 관광 게이미피케이션 서비스입니다.
-
-**Tech Stack**
-
-- Java 17, Spring Boot, MyBatis, MySQL
-- Spring Security, JWT
-- TourAPI, Kakao Maps API, Tmap API
-- Gemini API, Google Cloud Vision API
-
-**My Role**
-
-- 백엔드 REST API 구현
-- RDBMS 스키마 설계
-- JWT 기반 인증 흐름 구현
-- TourAPI 기반 관광지 후보 데이터 연동
-- Gemini / Vision API 기반 AI 인증 및 힌트 로직 연동
-
-**What I Learned**
-
-- 클라이언트 요청이 Controller, Service, Mapper, DB를 거쳐 응답으로 이어지는 백엔드 흐름
-- MyBatis 기반 SQL 매핑과 RDBMS 테이블 설계의 중요성
-- 여러 외부 API를 하나의 서비스 흐름에 연결할 때 필요한 예외 처리와 데이터 정제 과정
-
----
-
-### The Way of Priest: Day and Night
-
-Unity 기반 1인 개발 방치형 RPG 출시 프로젝트입니다.  
-Google Play Store 출시 및 서비스 유지보수 경험이 있습니다.
-
-**Tech Stack**
-
-- Unity, C#
-- Firebase Realtime DB
-- Google Login, Leaderboard, AdMob
-- Addressables, Object Pooling
-- Offline Reward System
-
-**Implemented Features**
-
-- Firebase Realtime DB와 PlayerPrefs를 분리한 하이브리드 저장 구조
-- Google Login, Leaderboard, AdMob 연동
-- HTTP Header Date 기반 서버 시간 보정
-- 오프라인 보상 및 시간 기반 디버프 시스템
-- Object Pooling을 통한 반복 생성/삭제 비용 절감
-- Addressables 기반 리소스 관리 구조
-
-**What I Learned**
-
-- 외부 SDK 연동 중 발생하는 버전 충돌과 빌드 문제 해결
-- 서버/클라이언트 데이터 역할 분리
-- 실시간 상태 관리와 메모리 최적화 구조 설계
-
----
-
-### MultiPlayer TPS
-
-Unreal Engine 4.27 기반 멀티플레이어 슈팅 프로토타입입니다.  
-백엔드 지원 관점에서는 클라이언트-서버 구조, 서버 권위, 시간 동기화, 지연 보상 경험으로 정리하고 있습니다.
-
-**Tech Stack**
-
-- Unreal Engine 4.27
-- C++
-- Unreal Networking
-- Replication / RPC
-
-**Implemented Features**
-
-- 서버 권위 기반 판정 구조
-- RTT 기반 클라이언트-서버 시간 동기화
-- 히트박스 히스토리 저장
-- 과거 프레임 롤백 기반 지연 보상 기초 구현
-- 캐릭터, 무기, HUD, 충돌 처리 구조 구현
-
-**What I Learned**
-
-- 클라이언트 데이터를 그대로 신뢰하지 않고 서버에서 검증하는 구조의 필요성
-- 네트워크 지연이 판정과 상태 동기화에 미치는 영향
-- 실시간 시스템에서 데이터 정합성을 유지하기 위한 상태 기록과 보간 방식
-
----
-
-## Additional Experience
-
-- SSAFY 15기 Java 풀스택 과정 진행 중
-- 서울게임아카데미 SGA 프로그래밍 및 Unreal Engine 과정 수료
-- SGA 우수학생 선정 및 PlayX4 포트폴리오 출품
-- Unreal Engine 기반 Stealth Action RPG 프로토타입 제작
-
-
----
-
-## GitHub Direction
-
-현재 GitHub는 백엔드 지원을 중심으로 정리하고 있습니다.
-
-- Main: Spring Boot, MyBatis, MySQL, JWT, External API
-- Sub: Unity 출시 경험, Unreal Engine 실시간 시스템 경험
-- Focus: 서비스 데이터 흐름, 인증, API 연동, 실시간 시스템 이해
+</details>
