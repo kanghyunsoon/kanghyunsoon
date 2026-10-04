@@ -1,8 +1,6 @@
 # 강형순
 
-Java·Spring으로 백엔드를 만들고, AI가 만든 결과를 서비스에 쓰기 전에 검사하는 코드를 짭니다. Operation KOREA에서는 AI가 만든 추리 사건을 서버에서 검사한 뒤 저장했고, SSAFESTA에서는 6인 팀 팀장으로 AI 에이전트와 함께 개발할 규칙과 일정을 정했습니다.
-
-게임도 만듭니다. Unity로 만든 방치형 RPG를 혼자 Google Play에 출시해 업데이트까지 했고, SSAFESTA에서는 Unity WebGL 클라이언트와 전용 서버를 맡았습니다. 지금은 AI 코딩 에이전트가 바꾼 코드가 팀 결정과 어긋나는지 알려 주는 도구 DUO를 만들고 있습니다.
+웹과 AI에서 나온 데이터를 Unity 3D와 게임 화면에서 동작하게 만드는 개발을 해 왔습니다. SSAFESTA에서는 실제 SSAFY 캠퍼스 11층 모델과 웹에서 꾸민 부스를 Unity WebGL 월드에 올리고 여러 명이 동시에 접속하게 만들었습니다. Operation KOREA에서는 실제 장소 정보로 AI가 만든 사건을 서버에서 검사해 지도 기반 게임으로 만들었습니다. 서버는 Java·Spring으로 만들고, 혼자 만든 Unity 게임을 Google Play에 출시했습니다. 두 팀 프로젝트에서는 팀장으로 일정과 개발 규칙을 정했습니다.
 
 프로젝트별로 어떤 문제를 어떻게 풀었는지는 [노션 포트폴리오](https://lapis-tuna-1ef.notion.site/3ef2ff41a8f38167a96fdc7f8732f818)에 정리했습니다.
 
@@ -10,8 +8,8 @@ Java·Spring으로 백엔드를 만들고, AI가 만든 결과를 서비스에 �
 
 | 기술 | 쓴 곳 |
 | --- | --- |
+| Unity(C#) · Netcode for GameObjects | SSAFESTA WebGL 월드·전용 서버·건물 모델 최적화, 사제의 길 출시 |
 | Java · Spring Boot · MyBatis · MySQL | Operation KOREA 백엔드. API, 생성 결과 검사 코드, JUnit 테스트 |
-| Unity(C#) · Netcode for GameObjects | 사제의 길 출시, SSAFESTA WebGL 클라이언트와 전용 서버 |
 | Gemini·OpenAI API · MCP · Codex · Claude Code | Operation KOREA 사건 생성, SSAFESTA 트러블 기록·이슈 공유 자동화, DUO |
 | Git · GitLab · Jira | SSAFESTA에서 브랜치·커밋 규칙을 정하고 Jira로 일정 관리 |
 
@@ -28,20 +26,29 @@ Java·Spring으로 백엔드를 만들고, AI가 만든 결과를 서비스에 �
 
 <table>
   <tr>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
+      <a href="https://github.com/kanghyunsoon/SSAFESTA-Portfolio"><img src="imgs/project-ssafesta.jpg" alt="Unity WebGL로 옮긴 SSAFY 캠퍼스 11층과 축제 월드"></a>
+      <p><b><a href="https://github.com/kanghyunsoon/SSAFESTA-Portfolio">SSAFESTA</a></b><br>
+      <sub>Unity WebGL · Netcode · Linux 서버 / 6인 팀, 팀장</sub></p>
+      <p>웹에서 꾸민 부스를 Unity 월드에 불러오는 클라이언트와 전용 서버를 맡았습니다. 팀원이 SketchUp으로 만든 캠퍼스 11층 모델을 가져와 오브젝트 2,043개를 156개로 합쳤고, 부스 구역 드로우콜은 1,088회에서 231회로 줄였습니다. 구현 전에 팀원들과 담당 범위, 완료 조건, Git 규칙을 정하고 Jira로 일정을 관리했습니다.</p>
+    </td>
+    <td width="50%" valign="top">
       <a href="https://github.com/kanghyunsoon/operation-seoul"><img src="imgs/project-operation-korea.jpg" alt="Operation KOREA 지도, 최종 추리, 결과 화면"></a>
       <p><b><a href="https://github.com/kanghyunsoon/operation-seoul">Operation KOREA</a></b><br>
       <sub>Java · Spring Boot · Gemini / 2인 팀, 팀장</sub></p>
       <p>장소 정보로 AI가 추리 사건을 만들고, 서버가 검사한 뒤 저장하는 백엔드를 맡았습니다. 범인이 용의자 목록에 없거나 정답이 단서에 드러나는 결과가 나와서 생성 단계를 나누고 검사 코드를 붙였습니다. 에피소드 생성·관리 쪽 테스트는 67개입니다.</p>
       <p><sub>SSAFY 1학기 프로젝트 우수상</sub></p>
     </td>
-    <td width="33%" valign="top">
-      <a href="https://github.com/kanghyunsoon/SSAFESTA-Portfolio"><img src="imgs/project-ssafesta.jpg" alt="SSAFESTA Unity WebGL 월드"></a>
-      <p><b><a href="https://github.com/kanghyunsoon/SSAFESTA-Portfolio">SSAFESTA</a></b><br>
-      <sub>Unity WebGL · Netcode · Linux 서버 / 6인 팀, 팀장</sub></p>
-      <p>웹에서 꾸민 부스를 Unity 월드에 불러오는 클라이언트와 전용 서버를 맡았습니다. 구현 전에 팀원들과 담당 범위, 완료 조건, Git 규칙을 정하고 Jira로 일정을 관리했습니다. 부스 안에서 1,088회 나오던 드로우콜은 231회로 줄였습니다.</p>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/kanghyunsoon/sign-language-game"><img src="imgs/project-sign-language.jpg" alt="수어의 달인 대표 이미지"></a>
+      <p><b><a href="https://github.com/kanghyunsoon/sign-language-game">수어의 달인</a></b><br>
+      <sub>TensorFlow·TFLite · React · WebRTC / 6인 팀</sub></p>
+      <p>웹캠으로 읽은 손 모양을 게임 입력으로 쓰는 웹게임입니다. AI의 도움을 받아 지문자 인식 모델의 학습 스크립트를 작성하고 튜닝했고, 순간 오인식이 판정에 들어가지 않도록 같은 결과가 100ms 이상 이어질 때만 입력으로 받게 했습니다. 게임 선택 이후 프론트엔드와 WebRTC 1:1 대전도 맡았습니다.</p>
+      <p><sub><a href="https://sudal-play.vercel.app">서비스</a></sub></p>
     </td>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <a href="https://github.com/kanghyunsoon/PathOfPriestPortfolio"><img src="imgs/project-path-of-priest.jpg" alt="사제의 길 전투, 던전, 편성, 성장 화면"></a>
       <p><b><a href="https://github.com/kanghyunsoon/PathOfPriestPortfolio">사제의 길: 낮과 밤</a></b><br>
       <sub>Unity · C# · Firebase / 1인 개발</sub></p>
@@ -61,10 +68,14 @@ AI 코딩 에이전트가 바꾼 코드가 팀이 정한 결정과 어긋나는�
 
 ## 그 밖의 프로젝트
 
-- [수어의 달인](https://github.com/kanghyunsoon/sign-language-game): 웹캠으로 인식한 지문자를 게임 입력으로 쓰는 웹게임입니다. 6인 팀에서 AI의 도움을 받아 인식 모델의 학습 스크립트를 작성하고 튜닝했고, 게임 선택 이후 프론트엔드를 맡았습니다. ([서비스](https://sudal-play.vercel.app))
+<details>
+<summary>Paws Diary · 멀티플레이 TPS · 잠입 액션 RPG</summary>
+
 - [Paws Diary](https://github.com/kanghyunsoon/Paws-on-Keyboard): 관광데이터 공모전 프로젝트입니다. Ennoia에서 사진 분석, 장소 추천, 일기, 그림 생성 에이전트의 역할과 순서를 짰고, 도구에서 바로 부를 수 없던 Hugging Face 모델은 [FastAPI 프록시](https://github.com/kanghyunsoon/HF_ProxyAPI)로 연결했습니다.
 - [멀티플레이 TPS](https://github.com/kanghyunsoon/NetworkShooterPortfolio): Unreal C++. 서버가 캐릭터 콜리전을 발사 시점으로 되돌려 명중을 다시 판정합니다.
 - [잠입 액션 RPG](https://github.com/kanghyunsoon/StealthActionRPGPortfolio): 첫 Unreal 프로젝트입니다. 커버 이동, 발 위치 보정, Behavior Tree AI를 만들었습니다.
+
+</details>
 
 ## 교육·수상
 
