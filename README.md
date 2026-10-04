@@ -1,43 +1,62 @@
-# 강형순 · Kang Hyun Soon
+# 강형순
 
-Unity와 Unreal Engine으로 게임을 만들고 있습니다. 방치형 RPG를 혼자 개발해 Google Play에 출시하고 업데이트했습니다. SSAFY에서는 팀 프로젝트로 웹과 AI를 게임에 연결하는 작업을 이어가고 있습니다.
+올해 한 프로젝트는 대부분 AI가 만든 결과를 서비스에 쓸 수 있게 다듬는 일이었습니다. 서버는 Java·Spring으로, 3D 클라이언트는 Unity로 만듭니다. 혼자 만든 방치형 RPG는 Google Play에 출시해 업데이트까지 했고, 지금은 AI 코딩 에이전트가 만든 변경을 검사하는 도구 DUO를 만들고 있습니다.
 
-![Unity](https://img.shields.io/badge/Unity-222C37?style=flat-square&logo=unity&logoColor=white)
-![Unreal Engine](https://img.shields.io/badge/Unreal_Engine-0E1128?style=flat-square&logo=unrealengine&logoColor=white)
-![C Sharp](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-
-## 게임 프로젝트
-
-| 프로젝트 | 제가 맡은 일 |
+| 분야 | 사용 기술 |
 | --- | --- |
-| **[사제의 길: 낮과 밤](https://github.com/kanghyunsoon/PathOfPriestPortfolio)**<br>Unity · C# / 1인 개발 · Google Play 출시 | 전투·성장 기능과 Firebase 저장, 광고·결제를 구현했습니다. 출시 후 Android SDK 의존성과 회원 탈퇴 기능을 수정했습니다. |
-| **[SSAFESTA](https://github.com/kanghyunsoon/SSAFESTA-Portfolio)**<br>Unity WebGL · Netcode / 6인 팀 | Unity 클라이언트와 전용 서버를 맡았습니다. AI 에이전트와 구현하고 웹·서버 통합 과정의 접속 실패, 렌더링과 메모리 문제를 확인해 수정했습니다. |
-| **[멀티플레이 TPS](https://github.com/kanghyunsoon/NetworkShooterPortfolio)**<br>Unreal Engine · C++ | 서버가 캐릭터의 콜리전을 발사 시점으로 되돌려 명중을 판정하는 리와인드 흐름을 구현했습니다. 공개 코드는 이 흐름을 중심으로 정리했습니다. |
-| **[잠입 액션 RPG](https://github.com/kanghyunsoon/StealthActionRPGPortfolio)**<br>Unreal Engine · C++ / 첫 게임 프로젝트 | 커버 이동, 전투, 발 위치 보정과 AI 상태 전환을 구현했습니다. 벽 끝에서 커버 위치가 틀어지는 문제를 탐지 지점을 나눠 수정했습니다. |
+| 서버 | Java · Spring Boot · MyBatis · MySQL |
+| 클라이언트 | Unity(C#) · Unreal Engine(C++) · React(TypeScript) |
+| AI | Gemini·OpenAI API · MCP · Codex · Claude Code |
+| 협업 | Git · GitLab · Jira |
 
-## AI를 게임·서비스에 연결한 프로젝트
+## 대표 프로젝트
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=111827)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a href="https://github.com/kanghyunsoon/operation-seoul"><img src="imgs/project-operation-korea.jpg" alt="Operation KOREA 지도, 최종 추리, 결과 화면"></a>
+      <p><b><a href="https://github.com/kanghyunsoon/operation-seoul">Operation KOREA</a></b><br>
+      <sub>Java · Spring Boot · Gemini / 2인 팀, 팀장</sub></p>
+      <p>장소 정보로 AI가 추리 사건을 만들고, 서버가 검사한 뒤 저장하는 백엔드를 맡았습니다. 범인이 용의자 목록에 없거나 정답이 단서에 드러나는 결과가 나와서 생성 단계를 나누고 검사 코드를 붙였습니다. 생성 검사 테스트는 67개입니다.</p>
+      <p><sub>SSAFY 1학기 프로젝트 우수상</sub></p>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/kanghyunsoon/SSAFESTA-Portfolio"><img src="imgs/project-ssafesta.jpg" alt="SSAFESTA Unity WebGL 월드"></a>
+      <p><b><a href="https://github.com/kanghyunsoon/SSAFESTA-Portfolio">SSAFESTA</a></b><br>
+      <sub>Unity WebGL · Netcode · Linux 서버 / 6인 팀, 팀장</sub></p>
+      <p>웹에서 꾸민 부스를 Unity 월드에 불러오는 클라이언트와 전용 서버를 맡았습니다. 구현 전에 팀원들과 담당 범위, 완료 조건, Git 규칙을 정하고 Jira로 일정을 관리했습니다. 부스 안에서 1,088회 나오던 드로우콜은 231회로 줄였습니다.</p>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/kanghyunsoon/PathOfPriestPortfolio"><img src="imgs/project-path-of-priest.jpg" alt="사제의 길 전투, 던전, 편성, 성장 화면"></a>
+      <p><b><a href="https://github.com/kanghyunsoon/PathOfPriestPortfolio">사제의 길: 낮과 밤</a></b><br>
+      <sub>Unity · C# · Firebase / 1인 개발</sub></p>
+      <p>방치형 RPG를 혼자 만들어 Google Play에 출시했습니다. 로그인, 진행 저장, 광고, 결제를 붙였고, 출시 뒤에는 Android SDK 의존성 충돌과 회원 탈퇴 기능을 고쳐 업데이트했습니다.</p>
+      <p><sub><a href="https://play.google.com/store/apps/details?id=com.KHS.MonsterRaidIdle">Google Play</a> · <a href="https://youtu.be/jKvEW6LIzaw">플레이 영상</a></sub></p>
+    </td>
+  </tr>
+</table>
 
-| 프로젝트 | 제가 맡은 일 |
-| --- | --- |
-| **[수어의 달인](https://github.com/kanghyunsoon/sign-language-game)**<br>TensorFlow · TFLite · React / 6인 팀 | AI의 도움으로 지문자 모델의 학습 스크립트를 작성하고 인식 결과를 비교하며 튜닝했습니다. 게임 선택 이후 프론트엔드와 예측을 게임 입력으로 확정하는 흐름을 맡았습니다. |
-| **[Operation KOREA](https://github.com/kanghyunsoon/operation-seoul)**<br>Spring Boot · Gemini / 2인 팀 | 장소 정보를 모아 추리 에피소드를 생성·검사·저장하는 백엔드를 맡았습니다. 인증·에피소드·추리 API를 구현했고, DB는 초기 스키마와 연결까지 담당했습니다. |
-| **[Paws Diary](https://github.com/kanghyunsoon/Paws-on-Keyboard)**<br>Ennoia · AI 에이전트 | 사진 분석·관광지 추천·일기·이미지 생성의 전달 흐름을 구성했습니다. Ennoia에서 직접 호출하기 어려웠던 Hugging Face 모델은 [FastAPI 프록시](https://github.com/kanghyunsoon/HF_ProxyAPI)로 연결했습니다. |
+## 지금 만들고 있는 것
+
+**[DUO](https://github.com/kanghyunsoon/duo)** · TypeScript · 개인 오픈소스 · [npm](https://www.npmjs.com/package/@duo-director/cli)
+
+AI 코딩 에이전트가 바꾼 코드가 팀이 정한 결정과 어긋나는지 파일과 줄 단위로 알려 주는 도구입니다. SSAFESTA에서 AI가 파트 사이에서 바뀐 결정을 놓쳐 통합 단계에서야 오류가 드러난 적이 있어서 시작했습니다. 코드는 AI 코딩 에이전트와 함께 쓰고, 무엇을 검사할지와 테스트 기준은 제가 정합니다.
+
+## 그 밖의 프로젝트
+
+- [수어의 달인](https://github.com/kanghyunsoon/sign-language-game): 웹캠으로 인식한 지문자를 게임 입력으로 쓰는 웹게임입니다. 6인 팀에서 AI의 도움을 받아 인식 모델의 학습 스크립트를 작성하고 튜닝했고, 게임 선택 이후 프론트엔드를 맡았습니다. ([서비스](https://sudal-play.vercel.app))
+- [Paws Diary](https://github.com/kanghyunsoon/Paws-on-Keyboard): 관광데이터 공모전 프로젝트입니다. Ennoia에서 사진 분석, 장소 추천, 일기, 그림 생성 에이전트의 역할과 순서를 짰고, 도구에서 바로 부를 수 없던 Hugging Face 모델은 [FastAPI 프록시](https://github.com/kanghyunsoon/HF_ProxyAPI)로 연결했습니다.
+- [멀티플레이 TPS](https://github.com/kanghyunsoon/NetworkShooterPortfolio): Unreal C++. 서버가 캐릭터 콜리전을 발사 시점으로 되돌려 명중을 다시 판정합니다.
+- [잠입 액션 RPG](https://github.com/kanghyunsoon/StealthActionRPGPortfolio): 첫 Unreal 프로젝트입니다. 커버 이동, 발 위치 보정, Behavior Tree AI를 만들었습니다.
 
 ## 교육·수상
 
-- SSAFY 15기 Java 풀스택 과정
-- SSAFY 15기 1학기 관통 프로젝트 우수상 · Operation KOREA 팀 수상
+- SSAFY 15기 Java 풀스택 과정 (2026.01~)
+- 서울게임아카데미 3D 게임 프로그래머 양성과정 수료
+- SSAFY 15기 1학기 프로젝트 우수상 · Operation KOREA, 서울 16반 2등
 
 <details>
-<summary>수상 내역 보기</summary>
+<summary>상장 보기</summary>
 
 <img src="imgs/ssafy_pierce.png" alt="Operation KOREA 팀의 SSAFY 1학기 프로젝트 우수상 상장" width="440" />
 
