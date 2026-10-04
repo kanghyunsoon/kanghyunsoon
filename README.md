@@ -17,7 +17,7 @@
       <a href="https://github.com/kanghyunsoon/operation-seoul"><img src="imgs/project-operation-korea.jpg" alt="Operation KOREA 지도, 최종 추리, 결과 화면"></a>
       <p><b><a href="https://github.com/kanghyunsoon/operation-seoul">Operation KOREA</a></b><br>
       <sub>Java · Spring Boot · Gemini / 2인 팀, 팀장</sub></p>
-      <p>장소 정보로 AI가 추리 사건을 만들고, 서버가 검사한 뒤 저장하는 백엔드를 맡았습니다. 범인이 용의자 목록에 없거나 정답이 단서에 드러나는 결과가 나와서 생성 단계를 나누고 검사 코드를 붙였습니다. 생성 검사 테스트는 67개입니다.</p>
+      <p>장소 정보로 AI가 추리 사건을 만들고, 서버가 검사한 뒤 저장하는 백엔드를 맡았습니다. 범인이 용의자 목록에 없거나 정답이 단서에 드러나는 결과가 나와서 생성 단계를 나누고 검사 코드를 붙였습니다. 에피소드 생성·관리 쪽 테스트는 67개입니다.</p>
       <p><sub>SSAFY 1학기 프로젝트 우수상</sub></p>
     </td>
     <td width="33%" valign="top">
