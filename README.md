@@ -2,6 +2,8 @@
 
 올해 한 프로젝트는 대부분 AI가 만든 결과를 서비스에 쓸 수 있게 다듬는 일이었습니다. 서버는 Java·Spring으로, 3D 클라이언트는 Unity로 만듭니다. 혼자 만든 방치형 RPG는 Google Play에 출시해 업데이트까지 했고, 지금은 AI 코딩 에이전트가 만든 변경을 검사하는 도구 DUO를 만들고 있습니다.
 
+프로젝트별로 어떤 문제를 어떻게 풀었는지는 [노션 포트폴리오](https://lapis-tuna-1ef.notion.site/3ef2ff41a8f38167a96fdc7f8732f818)에 정리했습니다.
+
 | 분야 | 사용 기술 |
 | --- | --- |
 | 서버 | Java · Spring Boot · MyBatis · MySQL |
