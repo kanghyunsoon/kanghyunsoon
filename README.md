@@ -47,7 +47,7 @@ Unity로 3D 공간과 게임을 만들고, Java·Spring으로 서버를 만듭�
       <a href="https://github.com/kanghyunsoon/sign-language-game"><img src="imgs/project-sign-language.jpg" alt="수어의 달인 대표 이미지"></a>
       <p><b><a href="https://github.com/kanghyunsoon/sign-language-game">수어의 달인</a></b><br>
       <sub>TensorFlow·TFLite · React · WebRTC / 6인 팀</sub></p>
-      <p>웹캠으로 인식한 손 모양을 게임 입력으로 쓰는 웹게임입니다. AI의 도움을 받아 지문자 인식 모델의 학습 스크립트를 작성하고 튜닝했습니다. 한 프레임만 잘못 인식된 결과가 판정에 들어가지 않도록, 같은 결과가 100ms 이상 이어질 때만 입력으로 받게 했습니다. 게임 선택 이후의 프론트엔드와 WebRTC 1:1 대전도 맡았습니다.</p>
+      <p>웹캠으로 인식한 손 모양을 게임 입력으로 쓰는 웹게임입니다. AI의 도움을 받아 지문자 인식 모델의 학습 스크립트를 작성하고 튜닝했습니다. 한 프레임만 잘못 인식된 결과가 판정에 들어가지 않도록, 최근 프레임들의 인식 결과와 유지 시간을 확인한 뒤 입력으로 확정하게 했습니다. 게임 선택 이후의 프론트엔드와 WebRTC 1:1 대전도 맡았습니다.</p>
       <p><sub><a href="https://sudal-play.vercel.app">서비스</a></sub></p>
     </td>
     <td width="50%" valign="top">
