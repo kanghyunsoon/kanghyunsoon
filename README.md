@@ -4,7 +4,7 @@ Unity로 3D 공간과 게임을 만들고, Java·Spring으로 서버를 만듭�
 
 올해는 웹에서 꾸민 부스를 Unity 월드에 불러오는 SSAFESTA와, AI가 만든 추리 사건을 서버에서 검사한 뒤 저장하는 Operation KOREA를 만들었습니다. 두 프로젝트에서 모두 팀장을 맡았습니다. 혼자 만든 Unity 게임을 Google Play에 출시하고 업데이트한 경험도 있습니다.
 
-프로젝트별로 어떤 문제를 어떻게 풀었는지는 [노션 포트폴리오](https://lapis-tuna-1ef.notion.site/3ef2ff41a8f38167a96fdc7f8732f818)에 정리했습니다.
+프로젝트별로 어떤 문제를 어떻게 풀었는지는 [노션 포트폴리오](https://kanghyungsoon.notion.site/3ef2ff41a8f38167a96fdc7f8732f818)에 정리했습니다.
 
 **주로 쓰는 기술**
 
