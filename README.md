@@ -33,6 +33,7 @@ Unity로 3D 공간과 게임을 만들고, Java·Spring으로 서버를 만듭�
       <p><b><a href="https://github.com/kanghyunsoon/SSAFESTA-Portfolio">SSAFESTA</a></b><br>
       <sub>Unity WebGL · Netcode · Linux 서버 / 6인 팀, 팀장</sub></p>
       <p>사용자가 웹에서 꾸민 부스를 Unity 월드에 불러오는 기능과, 여러 명이 같은 월드에 접속하는 전용 서버를 맡았습니다. 팀원이 만든 SSAFY 캠퍼스 11층 모델은 웹 브라우저에서 실행되도록 오브젝트를 2,043개에서 156개로 합쳤습니다. 팀장으로서 구현 전에 담당 범위, 완료 조건, Git 규칙을 팀원들과 정했고, Jira로 일정을 관리했습니다.</p>
+      <p><sub><a href="https://youtu.be/dF9A3dqVsq4">시연 영상</a></sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/kanghyunsoon/operation-seoul"><img src="imgs/project-operation-korea.jpg" alt="Operation KOREA 지도, 최종 추리, 결과 화면"></a>
@@ -48,7 +49,7 @@ Unity로 3D 공간과 게임을 만들고, Java·Spring으로 서버를 만듭�
       <p><b><a href="https://github.com/kanghyunsoon/sign-language-game">수어의 달인</a></b><br>
       <sub>TensorFlow·TFLite · React · WebRTC / 6인 팀</sub></p>
       <p>웹캠으로 인식한 손 모양을 게임 입력으로 쓰는 웹게임입니다. AI의 도움을 받아 지문자 인식 모델의 학습 스크립트를 작성하고 튜닝했습니다. 한 프레임만 잘못 인식된 결과가 판정에 들어가지 않도록, 최근 프레임들의 인식 결과와 유지 시간을 확인한 뒤 입력으로 확정하게 했습니다. 게임 선택 이후의 프론트엔드와 WebRTC 1:1 대전도 맡았습니다.</p>
-      <p><sub><a href="https://sudal-play.vercel.app">서비스</a></sub></p>
+      <p><sub><a href="https://sudal-play.vercel.app">서비스</a> · <a href="https://youtu.be/Y6J_x2KZ0X8">시연 영상</a></sub></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/kanghyunsoon/PathOfPriestPortfolio"><img src="imgs/project-path-of-priest.jpg" alt="사제의 길 전투, 던전, 편성, 성장 화면"></a>
