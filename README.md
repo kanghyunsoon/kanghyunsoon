@@ -1,8 +1,8 @@
 # 강형순
 
-Unity로 3D 공간과 게임을 만들고, Java·Spring으로 서버를 만듭니다.
+AI를 활용한 웹 서비스와 개발 도구를 만들고, 배포 후 사용 기록을 바탕으로 고칩니다.
 
-올해는 웹에서 꾸민 부스를 Unity 월드에 불러오는 SSAFESTA와, AI가 만든 추리 사건을 서버에서 검사한 뒤 저장하는 Operation KOREA를 만들었습니다. 두 프로젝트에서 모두 팀장을 맡았습니다. 혼자 만든 Unity 게임을 Google Play에 출시하고 업데이트한 경험도 있습니다.
+말랑아케이드를 혼자 개발해 출시했고, DUO에서는 6인 팀의 PM·백엔드·인프라를 맡았습니다. Java·Spring Boot로 추리 사건을 검사하는 서버를 만들고, Unity 게임을 Google Play에 출시했습니다.
 
 프로젝트별로 어떤 문제를 어떻게 풀었는지는 [노션 포트폴리오](https://kanghyungsoon.notion.site/3ef2ff41a8f38167a96fdc7f8732f818)에 정리했습니다.
 
@@ -23,6 +23,12 @@ Unity로 3D 공간과 게임을 만들고, Java·Spring으로 서버를 만듭�
 | React · TypeScript | 수어의 달인 게임 화면, DUO |
 | Docker | SSAFESTA Unity 전용 서버를 이미지로 만들어 로컬에서 접속 확인 |
 | GitHub Actions | Operation KOREA와 DUO 테스트를 푸시할 때마다 실행 |
+
+## AI 서비스 개발과 운영
+
+- **[Aurora OS](https://aurora-os-o0xe.axhub.app/)** · 캠페인 예산 결재와 인플루언서 계약 갱신을 돕는 시연 앱입니다. 13주 현금 전망과 승인권자는 코드로 계산하고, AI 권고는 원문 근거·금액·기한과 대조합니다. 시연에서는 AI 응답을 기록으로 재생합니다.
+- **[말랑아케이드](https://kanghyungsoon.pro/)** · 브라우저 게임 허브를 1인 개발·운영했습니다. 출시 후 게임별 접속 집계를 고쳤습니다. 2026.11.22 기준 페이지 요청 5,765회, 온라인 게임 중계 연결 1,037회였습니다. 연결 수에는 재접속이 포함됩니다.
+- **[DUO](https://github.com/kanghyunsoon/duo)** · 팀 규칙을 기준으로 AI가 바꾼 코드를 검사합니다. 외부 제보를 받아 기존 설정 파일이 삭제되는 문제를 수정하고 [npm](https://www.npmjs.com/package/@duo-director/cli)에 배포했습니다.
 
 ## 대표 프로젝트
 
@@ -63,7 +69,7 @@ Unity로 3D 공간과 게임을 만들고, Java·Spring으로 서버를 만듭�
 
 ## 지금 만들고 있는 것
 
-**[DUO](https://github.com/kanghyunsoon/duo)** · TypeScript · 개인 오픈소스 · [npm](https://www.npmjs.com/package/@duo-director/cli)
+**[DUO](https://github.com/kanghyunsoon/duo)** · TypeScript · 6인 팀, PM·백엔드·인프라 · [npm](https://www.npmjs.com/package/@duo-director/cli)
 
 AI 코딩 에이전트가 팀이 정한 규칙과 다르게 코드를 바꾸면, 어느 파일의 몇 번째 줄인지 알려 주는 도구입니다. SSAFESTA에서 같은 API 경로가 문서와 코드에 서로 다르게 적혀 있었는데, 이것을 통합할 때에야 발견한 일이 있어서 만들기 시작했습니다. 코드는 AI 코딩 에이전트와 함께 작성하고, 무엇을 검사할지와 테스트 기준은 제가 정합니다.
 
@@ -81,6 +87,8 @@ AI 코딩 에이전트가 팀이 정한 규칙과 다르게 코드를 바꾸면,
 </details>
 
 ## 교육·수상
+
+- AX인재전쟁 온라인 1회차 · 삼일PwC 과제 참가자 2,916명 중 상위 5% (2026.11.23)
 
 - SSAFY 15기 Java 풀스택 과정 (2026.01~)
 - 서울게임아카데미 3D 게임 프로그래머 양성과정 수료
